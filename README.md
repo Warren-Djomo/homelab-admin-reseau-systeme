@@ -36,7 +36,14 @@ Disable-WindowsOptionalFeature -Online -FeatureName Containers-DisposableClientV
 - CPU : 2 cœurs
 - Disque : 60 Go (single file)
 - Réseau : NAT
-- Statut : installation en cours
-
+- IP statique : 192.168.138.130/24
+- Passerelle : 192.168.138.2
+- DNS : 8.8.8.8 / 8.8.4.4
+- Nom machine : WS2025-LAB
+- Bureau à distance à activé
+## Communication inter-VMs
+- Windows hôte → Ubuntu : SSH sur 192.168.138.129
+- Windows hôte → Windows Server : RDP sur 192.168.138.130
+- Ubuntu <-> Windows Server : ping confirmé
 ## Configuration SSH Windows → VM
 Fichier `C:\Users\warren djomo\.ssh\config` :
