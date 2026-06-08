@@ -45,5 +45,8 @@ Disable-WindowsOptionalFeature -Online -FeatureName Containers-DisposableClientV
 - Windows hôte → Ubuntu : SSH sur 192.168.138.129
 - Windows hôte → Windows Server : RDP sur 192.168.138.130
 - Ubuntu <-> Windows Server : ping confirmé
+## GNS3 installé
+- type d'installation : custom(permet le control de la zone d'installation de GNS3)
+## packet tracert 9.0 installé
 ## Configuration SSH Windows → VM
 Fichier `C:\Users\warren djomo\.ssh\config` :
